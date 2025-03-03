@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            font-size: 16px;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <h2>Select Login Option</h2>
+    <button onclick="openLoginPage('login1.html')">Button 1</button>
+    <button onclick="openLoginPage('login2.html')">Button 2</button>
+
+    <script>
+        function openLoginPage(url) {
+            window.location.href = url;
+        }
+    </script>
+
+</body>
+</html>
